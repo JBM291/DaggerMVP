@@ -1,5 +1,6 @@
 package com.mills.b.joshua.root;
-import com.mills.b.joshua.daggermvp.MainActivity;
+
+import com.mills.b.joshua.daggermvp.LoginActivity;
 
 import javax.inject.Singleton;
 
@@ -12,5 +13,5 @@ import dagger.Component;
 @Singleton
 @Component(modules = ApplicationModule.class)
 public interface ApplicationComponent {
-    void inject(MainActivity target);
+    void inject(LoginActivity target);
 }
